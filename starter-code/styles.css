@@ -1,0 +1,364 @@
+@font-face {
+    font-family: "fraunces";
+    font-family: "manrope";
+    src: url(assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+    src:url(assets/fonts/manrope/Manrope-VariableFont_wght.ttf) 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+:root {
+    --color1: #24053E;
+    --color2: #44ffa1;
+    --color3: #584d62;
+    --color4: #fcf8ff;
+}
+
+body {
+    overflow-x: hidden;
+}
+.image-bg {
+    width: 100%;
+    height: 730px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.shapka {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+}
+
+.shapka li:first-of-type {
+    margin-left: 165px;
+}
+.shapka li:nth-of-type(2) {
+    margin-right: 165px;
+    color: white;
+    border-bottom: 3px solid var(--color2);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 55px;
+    
+}
+
+.button a {
+    font-size: 20px;
+    color: var(--color1);
+    margin: 0 auto;
+    font-family: "manrope", sans-serif;
+}
+.button {
+    display: flex;
+    background-color: var(--color2);
+    width: 161px;
+    height: 60px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 80px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 37px;
+    font-family: "fraunces", sans-serif;
+}
+
+
+span {
+    border-bottom: 3px solid var(--color2);
+    
+}
+
+.left-img img {
+    width: 270px;
+    height: 215px;
+    position: absolute;
+    top: 116px;
+    left: -110px;
+    overflow: hidden;
+}
+
+.right-img img {
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    top: 314px;
+    right: -48px;
+    overflow: hidden;
+}
+
+.main img {
+    width: 767px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.shapka a:hover {
+    color: var(--color2);
+}
+.shapka a {
+    color: white;
+    font-family: "manrope", sans-serif;
+}
+
+.button:hover {
+    border: 2px solid var(--color2);
+    background-color: var(--color1); 
+}
+
+.button:hover a {
+    color: var(--color2);
+}
+
+
+
+.second-bg {
+    position: absolute;
+    width: 100%;
+    height: 960px;
+    margin-top: -400px;
+    overflow: hidden;
+    z-index: -10;
+}
+
+.box-2 {
+    display: flex;
+    width: 1115px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.block {
+    text-align: center;
+    color: var(--color1);
+    width: 354px;
+    font-family: "fraunces", sans-serif;
+    padding-left: 25px;
+}
+
+.h2 {
+    padding-top: 56px;
+    font-size: 30px;
+}
+
+.head2 p {
+    padding-top: 28px;
+}
+
+.block p {
+    font-size: 18px;
+    line-height: 32px;
+    font-family: "manrope", sans-serif;
+}
+
+.num {
+    border: 1px solid var(--color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 56px;
+    border-radius: 30.5px;
+    font-size: 28px;
+    margin: 0 auto;
+}
+
+.head2 {
+    margin-top: 56px;
+}
+
+.qq {
+    width: 477px;
+    height: 477px;
+    margin-top: 280px;
+    margin-left: 363px;
+}
+
+.test {
+    position: relative;
+    width: 730px;
+    height: 400px;
+    background-color: var(--color1);
+    margin-left: 750px;
+    margin-top: -400px;
+    z-index: 10;
+    color: white;
+    
+}
+
+.f-test {
+    font-size: 56px;
+    font-family: "fraunces", sans-serif;
+    padding-top: 60px;
+    
+}
+
+.f-test, .l-par, .button2 {
+    margin-left: 64px;
+}
+
+.l-par{
+    margin-top: 32px;
+    width: 602px;
+    line-height: 32px;
+    font-size: 18px;
+    font-family: "manrope", sans-serif;
+}
+
+.button2 {
+    margin-top: 32px;
+    width: 190px;
+    height: 61px;
+    background-color: var(--color2);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.button2:hover {
+    border: 2px solid var(--color2);
+    background-color: var(--color1); 
+}
+.button2:hover a {
+    color: var(--color2);
+}
+.button2 a {
+    font-size: 20px;
+    font-family: "manrope", sans-serif;
+    color: var(--color1);
+}
+
+.logo-dark {
+    margin-top: 250px;
+    
+}
+.footer {
+    text-align: center;
+    margin-top: -80px;
+}
+
+.media {
+    margin: 40px 0;
+    padding-right: 25px;
+}
+
+.bx {
+    padding-left: 25px;
+   
+}
+i {
+    font-size: 26px;
+    color: #584d62;
+}
+.media a:hover i{
+    color: var(--color1);
+}
+
+.circlee {
+    width: 173px;
+    height: 137px;
+    z-index: 1000;
+    margin-left: 1182px;
+    position: absolute;
+    margin-top: -100px;
+}
+
+
+
+/* tablet */
+@media screen and (max-width:768px) {
+    .shapka {
+        margin-top: 32px;
+    }
+    .shapka li:first-of-type {
+        margin-left: 40px;
+    }
+    .shapka li:nth-of-type(2) {
+        margin-right: 40px;
+    }
+    .button {
+        width: 133px;
+        height: 55px;
+    }
+    .button a {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .main img {
+        width: 514px;
+    }
+    .image-bg {
+        height: 540px;
+        object-fit: cover;
+    }
+    .box-2 {
+        display: flex;
+        flex-direction: column;
+        width:768px;
+    }
+    .block {
+        display: flex;
+        align-items: center;
+        width: 600px;
+        margin: 0 auto;
+    }
+    .head2 {
+        margin-left: 32px;
+        text-align: left;
+    }
+    .num {
+        padding: 0 22px;
+        
+        
+        
+    }
+    .second-bg {
+        width: 768px;
+        height: 1180px;
+        object-fit: cover;
+        
+    }
+    .qq {
+        width: 281px;
+        height: 281px;
+        margin-top: 204px;
+        margin-left: 39px;
+    }
+    .test {
+        position: relative;
+        width: 514px;
+        height: 400px;
+        margin-top: -140px;
+        margin-left: 200px;
+    }
+    .f-test {
+        font-size: 48px;
+        line-height: 56px;
+    }
+    .l-par {
+        margin-top: 24px;
+        font-size: 16px;
+        width: 402px;
+    }
+    .circlee {
+        margin-left: 496px;
+        margin-top: -80px;
+    }
+}
